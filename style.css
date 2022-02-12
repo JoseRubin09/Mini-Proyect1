@@ -169,3 +169,26 @@ h1 {
     
 }
 
+.skills-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(68, 68, 68);;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.skills-bar{
+    width: 60%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 50px;
+}
+
+span {
+    background-color: rgb(85, 0, 0);
+    margin: 1%;
+    height: 80%;
+    border-radius: 25px;
+}
+
