@@ -52,3 +52,19 @@ Object.entries(skills).forEach((elements) => {
     container.appendChild(bar)
     data.appendChild(container) 
 })
+
+let submit = document.getElementById("submit")
+let name = document.getElementById("name").value
+let email = document.getElementById("email").value
+console.log(name, email)
+
+submit.addEventListener("click", (event) => {
+    let name = document.getElementById("name").value
+    let email = document.getElementById("email").value
+    if (name == "" || email == ""){
+        window.confirm("No deje espacios en blancos");
+    }
+    if (name && email){
+        window.confirm("Sus datos han sido enviados");
+    }
+})
